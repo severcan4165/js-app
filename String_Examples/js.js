@@ -69,9 +69,9 @@ const removeCharacters = (someString, charactersToRemove) => {
         let b = someString.indexOf(charactersToRemove[i]); //karakter için for döngüsü hazırlandı, bu for döngüsünde 
         do {                                               //her bir karakterin indexOf ile pozisyonu bulundu
         if (b>=0){
-            indx.push(b);                                   // b değişkenine atadık pozisyonları ve 1 arttırarak
-            b++;                                            // string içinde kaldığı yerden ileri doğru arama işlemine 
-            b = someString.indexOf(charactersToRemove[i],b); // devam edildi.
+            indx.push(b);                                   // karakterlerin pozisyonlarını b değişkenine atadık ve 1 
+            b++;                                            //  arttırarak string içinde kaldığı yerden ileri doğru 
+            b = someString.indexOf(charactersToRemove[i],b); // arama işlemine devam edildi.
         }
         else {
             break;  // indexOf -1 döndüğünde yok demektir aranılan karakter burda kesiyon
