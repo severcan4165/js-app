@@ -30,6 +30,20 @@
 // }
 // console.log(reverseIt("Lorem ipsum dolor sit amet consectetur.")); 
 
+//! 2. Çözüm
+
+// let strn = prompt("string girin");
+
+// function reverseIt2(str) {
+//     let newstr = "";
+//     for (let i = str.length - 1; i >= 0; i--) {
+//         newstr += str[i];
+//     }
+//     return newstr;
+// }
+
+// console.log(reverseIt2(strn));
+
 
 
 //! 2. Is it a palindrome?  Does the given string spell out the same word when written out backwards? For example kayak.
