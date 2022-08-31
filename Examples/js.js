@@ -13,10 +13,11 @@ function sumTwoSmallestNumbers(numbers) {
     let smaller= numbers[0];
       for(let i = 0; i<numbers.length; i++){
       if(smaller>numbers[i]){
-        console.log(smaller)
         smaller=numbers[i];
       }
       
     }
     return smaller +smallest;
   }
+  let abc = [5,3,1,8,9,2,11]
+  console.log(sumTwoSmallestNumbers(abc))
